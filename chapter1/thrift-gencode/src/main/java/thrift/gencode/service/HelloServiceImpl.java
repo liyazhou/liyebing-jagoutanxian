@@ -9,6 +9,6 @@ import org.apache.thrift.TException;
 public class HelloServiceImpl implements HelloService.Iface {
 
     public String sayHello(User user) throws TException {
-        return "hello," + user.getName() + user.getEmail();
+        return "hello,liyazhou," + user.getName() + user.getEmail();
     }
 }
